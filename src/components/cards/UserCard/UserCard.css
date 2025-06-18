@@ -1,0 +1,37 @@
+.user-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  margin: 1rem 0;
+  max-width: 400px;
+  color: #213547;
+}
+.user-card-name {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.5rem;
+}
+.user-card-username {
+  color: #888;
+  margin: 0 0 0.5rem 0;
+}
+.user-card-email,
+.user-card-phone,
+.user-card-website {
+  margin: 0.25rem 0;
+}
+.user-card-address,
+.user-card-company {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+.user-card-catchphrase {
+  font-style: italic;
+  color: #646cff;
+  display: block;
+  margin: 0.25rem 0;
+}
+.user-card-website a {
+  color: #646cff;
+  text-decoration: underline;
+}

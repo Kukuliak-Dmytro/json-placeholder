@@ -1,11 +1,17 @@
-import Home from "../pages/Home/Home";
+import Users from "../pages/Users/Users";
 import Info from "../pages/Info/Info";
+import UserPage from "../pages/UserPage/UserPage";
 import { createBrowserRouter } from "react-router";
 
 const router = createBrowserRouter([
     {
-      path: "/home",
-      element: <Home/>,
+      path: "/users",
+      element: <Users/>,
+      
+    },
+    {
+      path: "/users/:id",
+      element: <UserPage/>,
     },
     {
       path: "/info",
